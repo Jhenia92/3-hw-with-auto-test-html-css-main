@@ -37,6 +37,7 @@ header span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .main-section .wrapper {
@@ -133,11 +134,7 @@ select:hover,
 .skills-block {
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
     display: flex;
-    flex-direction: column;
-}
-
-.form {
-    order: -1;
+    flex-direction: column-reverse;
 }
 
 .skills {
